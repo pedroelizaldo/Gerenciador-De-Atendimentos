@@ -89,7 +89,7 @@ while True:
         #  Retirar clientes atendidos
         atender(fila1)
         atender(fila2)
-        # Atualizar tempo de fila de todos os clientes
+        # Atualizar tempo de fila de todos os clientes exceto o que está sendo atendido
         for i in range(1,len(fila1.clientes_na_fila)):
                  fila1.clientes_na_fila[i].tempo_fila = fila1.clientes_na_fila[i].tempo_fila + 1
         for i in range(1,len(fila2.clientes_na_fila)):
