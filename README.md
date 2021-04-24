@@ -9,3 +9,4 @@ atendimentos	realizados	por	atendente.
 Feito por:
 Gabriel Pinheiro Ximenes
 Daniel dos Santos 
+Pedro Elizaldo Batista
