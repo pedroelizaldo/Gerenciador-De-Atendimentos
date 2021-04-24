@@ -100,7 +100,7 @@ while True:
     encerrar = input("Deseja encerrar o dia? (s/n)")
     if encerrar == "s" or "S" :
         break
-# Mostrar quantos clientes cada atendente atendeu
+# Mostrar quantos clientes cada atendente atendeu e o tempo médio de espera p cada fila
 print(f"A Fila 1 atendeu: {fila1.clientes_atendidos} clientes")
 print(f"A Fila 2 atendeu: {fila2.clientes_atendidos} clientes")
 print(f"O tempo medio de atendimento foi de {media_tempo_de_fila()}")
